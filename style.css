@@ -1,3 +1,4 @@
-#nombre{color: darkolivegreen;}
-.abilities{color: darkred;}
-.programs{color: darkorchid; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#nombre{color: darkolivegreen;text-align: center;}
+#foto{;}
+.abilities{color: darkred;text-align: center;}
+.programs{text-align: center;}
