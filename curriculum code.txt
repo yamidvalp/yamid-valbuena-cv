@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>EJERCISIO 1</title>
+    </head>
+    <body>
+        <h1>Hola a todos</h1>
+        <img width="100" height="100" src="yamid foto.jpg" alt="THIS IS ME"><!--fotografía-->
+        <p>Realizando prueba número uno de HTML.</p>
+        <ul>
+            <li>Diseñador</li>
+            <li>Artista gráfico</li>
+            <li>Fotógrafo</li>
+        </ul>
+        <ol>
+            <h4><li>Trabajo en equipo</li>
+            <li>Desarrollo de proyectos</li>
+            <li>Liderazgo</li></h4>
+
+        </ol>
+        <ol type="A">
+            <li>Adobe Suite</li>
+            <li>Microsoft office</li>
+            <li>Visual studio</li>
+
+        </ol>
+        <a href="https://www.linkedin.com/in/yamid-valbuena-57ab302a/">contáctame</a>
+        <!--comentario interno en el codigo para otros o para mi-->
+    </body>
+    <footer>
+CONTACTOS: <h3>(+57) 3002242449</h3> 
+<p><a href="arenaysombra@gmail.com">arenaysombra@gmail.com</a></p>
+    </footer>
+</html>

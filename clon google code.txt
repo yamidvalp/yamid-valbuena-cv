@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon Google</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>    
+    <header>
+    <Section class="Header">
+        <div class="Button-top">
+           <div class="Buttons-Left">            
+           <button><a href="">Gmail</a></button>
+           <button><a href="">Imágenes</a></button>
+           </div> 
+           <div class="Buttons-Right">            
+            <button id="svgButton">               
+                    <img src="./images/icon1.png" alt="">
+                    <!--<path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>-->               
+            </button>
+           <button id="btnLogin" type="menu"><img src="./images/Button.png" height="18" width="75"></button>           
+           </div> 
+        </div>
+    </Section>
+    </header>
+    <main>
+    <Section class="Container">
+        <div id="Logo"><img src="./images/Google.png" alt=""></div>
+        <div class="infoContainer">
+            <div class="fieldSearch">
+                <div class="iconSearch">
+                    <svg  viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    </svg>
+                </div>
+                <div class="inputText">
+                    <input type="search" id="input-search">
+                    <!--<textarea></textarea>-->
+                </div>
+                <div class="iconSearchiMicrophone">
+                    <svg viewBox="0 0 24 24">
+                        <path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path>
+                        <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+                        <path fill="#fbbc05" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path>
+                        <path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path>
+                    </svg>
+                </div>
+                <div class="iconSearchPicture">
+                    <svg viewBox="0 0 192 192">
+                        <rect fill="none" height="192" width="192"></rect>
+                        <g>
+                            <circle fill="#34a853" cx="144.07" cy="144" r="16"></circle>
+                            <circle fill="#4285f4" cx="96.07" cy="104" r="24"></circle>
+                            <path fill="#ea4335" d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24V135.2z"></path>
+                            <path fill="#fbbc05" d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116l20,16c8.8,0,16,8.29,16,18v30h16V72.8z"></path>
+                            <path fill="#4285f4" d="M112,24l-32,0L68,40H56.8C38.69,40,24,54.69,24,72.8V92h16V74c0-9.71,7.2-18,16-18h80L112,24z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="btn-search">
+                <button id="Search">Buscar con Google</button>
+                <button id="lucky" >Voy a tener suerte</button>
+            </div>
+            <div class="textBottomLink">
+                <p>Ofrecido por Google en:</p><p class="Link">Español (Latinoamérica)</p>
+            </div>
+        </div>        
+    </Section>
+    </main>
+    <footer class="Footer">
+        <div class="TextOne"><p>Colombia</p></div>
+        <div class="TexTwo">
+            <div class="Left">
+                <button>Sobre Google</button>
+                <button>Publicidad</button>
+                <button>Negocios</button>
+                <button>Cómo funciona la Búsqueda</button>
+            </div>
+            <div class="Right">
+                <button>Privacidad</button>
+                <button>Condiciones</button>
+                <button>Preferencias</button>            
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+//////style css
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header .Button-top{
+    background-color: white;
+    height: 100%;   
+    display: flex;    
+    width: 340px;/*25% no permite ser responsive Validar este widh barra superior*/
+    align-self: flex-end;
+    padding-left: 32px;
+    padding-right: 4px;
+    margin-right: 1%;    
+}
+.Header {
+    padding: 6px;    
+    height: 48px;   
+    width: 100vw;
+    display: flex;
+    justify-content: right;        
+}
+.Container{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Container .infoContainer{
+    padding: 6px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.Container .fieldSearch{            
+    width: 46%;    
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 41px;
+    padding: 5px 8px 0px 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+.iconSearch svg{
+    height: 45px;
+    width: 20px;
+    fill: #9aa0a6;
+    padding-right: 13px;    
+}
+.iconSearchiMicrophone svg{
+    height: 45px;
+    width: 20px;    
+    padding-right: 13px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.iconSearchPicture svg{
+    height: 45px;
+    width: 20px;    
+    padding-right: 13px;
+    padding-left: 3px;
+    cursor: pointer;
+}
+.inputText{
+    width: 80%;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inputText #input-search:hover{  
+    border: 1px solid rgba(255, 255, 0, 0.692);
+}
+.inputText #input-search{
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    width: 100%;
+    overflow:hidden;
+    font-size: 16px;        
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-search{
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 46%;
+    justify-content: center;
+    /*padding  lateralse16 botones margen 11 411 4*/
+}
+.btn-search button{
+    padding: 0px 16px;
+    margin: 4px 11px;
+    height: 36px;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    color: #3c4043;
+}
+.btn-search button:hover{
+    border: 1px solid #8f9396;
+    cursor: pointer;
+}
+.Buttons-Left a{
+    text-decoration: none;
+}
+.textBottomLink{
+    display: flex;    
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+}
+.textBottomLink .Link{
+    padding-left: 5px;
+    color: rgb(4, 4, 156);
+}
+.textBottomLink .Link:hover{
+    cursor: pointer;
+}
+.Buttons-Left{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.Buttons-Left button{
+    width: 50%;
+    background-color: white;
+    border-color: white;
+    border: 0px;
+    height: 100%;
+}
+.Buttons-Left button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Buttons-Right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;    
+}
+.Buttons-Right button#btnLogin{
+    width: 60%;
+    height: 75%;
+    margin-left: 8px;
+    border: 1px;
+    margin-top: 6px;
+    background-color: #395dfc;
+    color: white;
+    border-radius: 6px;    
+    font-weight: bold;  
+}
+.Buttons-Right button#btnLogin:hover{
+    background-color: #2c69b8;    
+    cursor: pointer;
+}
+.Buttons-Right button#svgButton{
+    background-color: white;
+    border: 0;
+    fill: #5f6368;
+    opacity: 1;
+    padding: 3px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    justify-content: flex-start;    
+    
+} 
+.Buttons-Right button#svgButton:hover{    
+    cursor: pointer;    
+    border-radius: 100%;
+    background-color: #d6d2d288 ;
+}
+
+.Footer div{
+    background: #f2f2f2;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;        
+}
+.Footer .TextOne{   
+    padding: 15px 30px;
+    width: 100vw;
+}
+.TexTwo{
+    display: flex;   
+    padding: 0px 20px;  
+    width: 100vw;
+    justify-content: space-between;
+}
+.TexTwo button{
+    padding:15px;
+    height: 100%;
+    border: none;
+    color: #70757a;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;        
+}
+
+.TexTwo button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Right{
+    margin-right:1.5%;
+   
+}
+.Footer{
+    width: 100vw;
+    position:fixed; bottom:0;
+}

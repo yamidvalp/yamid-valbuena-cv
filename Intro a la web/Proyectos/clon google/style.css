@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header .Button-top{
+    background-color: white;
+    height: 100%;   
+    display: flex;    
+    width: 340px;/*25% no permite ser responsive Validar este widh barra superior*/
+    align-self: flex-end;
+    padding-left: 32px;
+    padding-right: 4px;
+    margin-right: 1%;    
+}
+.Header {
+    padding: 6px;    
+    height: 48px;   
+    width: 100vw;
+    display: flex;
+    justify-content: right;        
+}
+.Container{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Container .infoContainer{
+    padding: 6px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.Container .fieldSearch{            
+    width: 46%;    
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 41px;
+    padding: 5px 8px 0px 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+.iconSearch svg{
+    height: 45px;
+    width: 20px;
+    fill: #9aa0a6;
+    padding-right: 13px;    
+}
+.iconSearchiMicrophone svg{
+    height: 45px;
+    width: 20px;    
+    padding-right: 13px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.iconSearchPicture svg{
+    height: 45px;
+    width: 20px;    
+    padding-right: 13px;
+    padding-left: 3px;
+    cursor: pointer;
+}
+.inputText{
+    width: 80%;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inputText #input-search:hover{  
+    border: 1px solid rgba(255, 255, 0, 0.692);
+}
+.inputText #input-search{
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    width: 100%;
+    overflow:hidden;
+    font-size: 16px;        
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-search{
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 46%;
+    justify-content: center;
+    /*padding  lateralse16 botones margen 11 411 4*/
+}
+.btn-search button{
+    padding: 0px 16px;
+    margin: 4px 11px;
+    height: 36px;
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    color: #3c4043;
+}
+.btn-search button:hover{
+    border: 1px solid #8f9396;
+    cursor: pointer;
+}
+.Buttons-Left a{
+    text-decoration: none;
+}
+.textBottomLink{
+    display: flex;    
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+}
+.textBottomLink .Link{
+    padding-left: 5px;
+    color: rgb(4, 4, 156);
+}
+.textBottomLink .Link:hover{
+    cursor: pointer;
+}
+.Buttons-Left{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.Buttons-Left button{
+    width: 50%;
+    background-color: white;
+    border-color: white;
+    border: 0px;
+    height: 100%;
+}
+.Buttons-Left button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Buttons-Right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;    
+}
+.Buttons-Right button#btnLogin{
+    width: 60%;
+    height: 75%;
+    margin-left: 8px;
+    border: 1px;
+    margin-top: 6px;
+    background-color: #395dfc;
+    color: white;
+    border-radius: 6px;    
+    font-weight: bold;  
+}
+.Buttons-Right button#btnLogin:hover{
+    background-color: #2c69b8;    
+    cursor: pointer;
+}
+.Buttons-Right button#svgButton{
+    background-color: white;
+    border: 0;
+    fill: #5f6368;
+    opacity: 1;
+    padding: 3px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    justify-content: flex-start;    
+    
+} 
+.Buttons-Right button#svgButton:hover{    
+    cursor: pointer;    
+    border-radius: 100%;
+    background-color: #d6d2d288 ;
+}
+
+.Footer div{
+    background: #f2f2f2;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;        
+}
+.Footer .TextOne{   
+    padding: 15px 30px;
+    width: 100vw;
+}
+.TexTwo{
+    display: flex;   
+    padding: 0px 20px;  
+    width: 100vw;
+    justify-content: space-between;
+}
+.TexTwo button{
+    padding:15px;
+    height: 100%;
+    border: none;
+    color: #70757a;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;        
+}
+
+.TexTwo button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Right{
+    margin-right:1.5%;
+   
+}
+.Footer{
+    width: 100vw;
+    position:fixed; bottom:0;
+}
